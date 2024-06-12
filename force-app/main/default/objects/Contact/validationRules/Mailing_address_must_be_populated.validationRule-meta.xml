@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mailing_address_must_be_populated</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+   ISBLANK( MailingCity ),
+   ISBLANK( MailingState ),
+   ISBLANK( MailingStreet ),
+   ISBLANK( MailingPostalCode )
+)</errorConditionFormula>
+    <errorDisplayField>MailingStreet</errorDisplayField>
+    <errorMessage>The full mailing address must be filled in.</errorMessage>
+</ValidationRule>

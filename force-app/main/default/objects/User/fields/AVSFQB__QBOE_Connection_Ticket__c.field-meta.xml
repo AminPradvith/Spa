@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AVSFQB__QBOE_Connection_Ticket__c</fullName>
+    <defaultValue>&apos;V1-253-$n4Jb_vmujjJWx7f8gvS0Q:163331652&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>QuickBooks Online Connection Ticket for DBSync</description>
+    <externalId>false</externalId>
+    <inlineHelpText>QuickBooks Online Connection Ticket for DBSync</inlineHelpText>
+    <label>QBOE Connection Ticket</label>
+    <length>250</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

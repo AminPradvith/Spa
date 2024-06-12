@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_stage_record_type</fullName>
+    <active>true</active>
+    <businessProcess>Default Stage</businessProcess>
+    <label>Default stage record type</label>
+    <picklistValues>
+        <picklist>AVSFQB__Generate_Object__c</picklist>
+        <values>
+            <fullName>CreditMemo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RefundReceipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SalesReceipt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AVSFQB__Product_Name__c</picklist>
+        <values>
+            <fullName>AppMashup %28Salesforce%2Ecom %26 QuickBooks%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AssessRight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DBSync</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AVSFQB__QuickBooks_ItemType__c</picklist>
+        <values>
+            <fullName>ItemDiscount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemFixedAsset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemGroup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemInventory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemInventoryAssembly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemNonInventory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemOtherCharge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemPayment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemService</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ItemSubtotal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opp_Membership_Type__c</picklist>
+        <values>
+            <fullName>BD Elite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BDE 20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bad Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Body Contour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deceased</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growing Young Empower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growing Young Enhance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growing Young Enrich</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Allowed on Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum 20</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area__c</fullName>
+    <externalId>false</externalId>
+    <label>Area</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Face</fullName>
+                <default>false</default>
+                <label>Face</label>
+            </value>
+            <value>
+                <fullName>Neck</fullName>
+                <default>false</default>
+                <label>Neck</label>
+            </value>
+            <value>
+                <fullName>Chest</fullName>
+                <default>false</default>
+                <label>Chest</label>
+            </value>
+            <value>
+                <fullName>Upper Arms</fullName>
+                <default>false</default>
+                <label>Upper Arms</label>
+            </value>
+            <value>
+                <fullName>Upper Back</fullName>
+                <default>false</default>
+                <label>Upper Back</label>
+            </value>
+            <value>
+                <fullName>Upper Legs</fullName>
+                <default>false</default>
+                <label>Upper Legs</label>
+            </value>
+            <value>
+                <fullName>Lower Arms</fullName>
+                <default>false</default>
+                <label>Lower Arms</label>
+            </value>
+            <value>
+                <fullName>Lower Back</fullName>
+                <default>false</default>
+                <label>Lower Back</label>
+            </value>
+            <value>
+                <fullName>Lower Legs</fullName>
+                <default>false</default>
+                <label>Lower Legs</label>
+            </value>
+            <value>
+                <fullName>Hands</fullName>
+                <default>false</default>
+                <label>Hands</label>
+            </value>
+            <value>
+                <fullName>Cherry Angiomas</fullName>
+                <default>false</default>
+                <label>Cherry Angiomas</label>
+            </value>
+            <value>
+                <fullName>_ Broken Capillaries</fullName>
+                <default>false</default>
+                <label>_ Broken Capillaries</label>
+            </value>
+            <value>
+                <fullName>Shoulders</fullName>
+                <default>false</default>
+                <label>Shoulders</label>
+            </value>
+            <value>
+                <fullName>Abdomen</fullName>
+                <default>false</default>
+                <label>Abdomen</label>
+            </value>
+            <value>
+                <fullName>Spot TX</fullName>
+                <default>false</default>
+                <label>Spot TX</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

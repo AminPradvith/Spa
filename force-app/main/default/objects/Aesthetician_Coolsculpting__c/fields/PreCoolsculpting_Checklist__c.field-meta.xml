@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreCoolsculpting_Checklist__c</fullName>
+    <externalId>false</externalId>
+    <label>PreCoolsculpting Checklist</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No hernia identified on physical exam</fullName>
+                <default>false</default>
+                <label>No hernia identified on physical exam</label>
+            </value>
+            <value>
+                <fullName>Patient denies any known hernias</fullName>
+                <default>false</default>
+                <label>Patient denies any known hernias</label>
+            </value>
+            <value>
+                <fullName>Patient denies pregnancy or location</fullName>
+                <default>false</default>
+                <label>Patient denies pregnancy or location</label>
+            </value>
+            <value>
+                <fullName>Patient understands that they need to maintain their body weight to achieve optimal results</fullName>
+                <default>false</default>
+                <label>Patient understands that they need to maintain their body weight to achieve optimal results</label>
+            </value>
+            <value>
+                <fullName>Patient understands some temporary nerve sensations may be present and that use of spandex clothing immediately post procedure may minimize discomfort.</fullName>
+                <default>false</default>
+                <label>Patient understands some temporary nerve sensations may be present and that use of spandex clothing immediately post procedure may minimize discomfort.</label>
+            </value>
+            <value>
+                <fullName>Patient cautioned to remain still during the procedure so as to not dislodge the coolsculpting device</fullName>
+                <default>false</default>
+                <label>Patient cautioned to remain still during the procedure so as to not dislodge the coolsculpting device</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

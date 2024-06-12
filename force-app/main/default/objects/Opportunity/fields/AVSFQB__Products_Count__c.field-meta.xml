@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AVSFQB__Products_Count__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Roll up Count of Opportunity Products for an opportunity</description>
+    <externalId>false</externalId>
+    <label>Products Count</label>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <type>Summary</type>
+</CustomField>

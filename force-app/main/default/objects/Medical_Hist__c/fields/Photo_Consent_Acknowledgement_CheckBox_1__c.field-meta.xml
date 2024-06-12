@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Photo_Consent_Acknowledgement_CheckBox_1__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>BY SIGNING BELOW, I ACKNOWLEDGE AND CERTIFY THAT I HAVE READ AND UNDERSTAND THE &quot;CONSENT, RELEASE AND INDEMNITY AGREEMENT&quot;,FOR THIS PROCEDURE, AND THAT I AM SIGNING IT VOLUNTARILY.</description>
+    <externalId>false</externalId>
+    <label>Photo Consent Acknowledgement CheckBox 1</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

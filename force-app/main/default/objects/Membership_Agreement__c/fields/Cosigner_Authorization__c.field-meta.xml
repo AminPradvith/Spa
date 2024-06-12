@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cosigner_Authorization__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Parent/Guardian: In exchange for CMS allowing my minor child to purchase a membership, I agree to the release of Liability and assumption of risk clauses in this agreement and I agree to defend and indemnify CMS to the fullest extent permitted by the law for any claim brought by my minor child against CMS. I also promise to pay any financial obligation that my minor child does not pay for any reason and acknowledge that the banking information above is my account.</description>
+    <externalId>false</externalId>
+    <label>Cosigner Authorization</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

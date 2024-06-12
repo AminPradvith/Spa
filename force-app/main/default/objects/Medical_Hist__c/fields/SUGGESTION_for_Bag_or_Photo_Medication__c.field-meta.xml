@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SUGGESTION_for_Bag_or_Photo_Medication__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SUGGESTION. Bring our medications in a bag with you or take a photo with your smart phone of the medication.</description>
+    <externalId>false</externalId>
+    <label>SUGGESTION for Bag or Photo Medication</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

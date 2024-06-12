@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pain_Management__c</fullName>
+    <externalId>false</externalId>
+    <label>Pain Management</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Ambien</fullName>
+                <default>false</default>
+                <label>Ambien</label>
+            </value>
+            <value>
+                <fullName>Ametop Gel</fullName>
+                <default>false</default>
+                <label>Ametop Gel</label>
+            </value>
+            <value>
+                <fullName>Betacaine Cream</fullName>
+                <default>false</default>
+                <label>Betacaine Cream</label>
+            </value>
+            <value>
+                <fullName>Demerol</fullName>
+                <default>false</default>
+                <label>Demerol</label>
+            </value>
+            <value>
+                <fullName>Ela-Max Cream</fullName>
+                <default>false</default>
+                <label>Ela-Max Cream</label>
+            </value>
+            <value>
+                <fullName>Nerve Block</fullName>
+                <default>false</default>
+                <label>Nerve Block</label>
+            </value>
+            <value>
+                <fullName>Phenergan</fullName>
+                <default>false</default>
+                <label>Phenergan</label>
+            </value>
+            <value>
+                <fullName>Vicodin</fullName>
+                <default>false</default>
+                <label>Vicodin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

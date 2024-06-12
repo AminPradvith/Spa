@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AVSFQB__Generate_Object__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Request to generate Estimate, invoice or sales order</description>
+    <externalId>false</externalId>
+    <label>Generate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>SalesReceipt</fullName>
+                <default>false</default>
+                <label>SalesReceipt</label>
+            </value>
+            <value>
+                <fullName>CreditMemo</fullName>
+                <default>false</default>
+                <label>CreditMemo</label>
+            </value>
+            <value>
+                <fullName>RefundReceipt</fullName>
+                <default>false</default>
+                <label>RefundReceipt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

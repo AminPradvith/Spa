@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Name__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If you do not choose this before creating an opportunity, then you will be forced to manually enter the name of the oppty.</inlineHelpText>
+    <label>Opportunity Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Dermal Filler Opportunity</fullName>
+                <default>false</default>
+                <label>Dermal Filler Opportunity</label>
+            </value>
+            <value>
+                <fullName>Membership Opportunity</fullName>
+                <default>false</default>
+                <label>Membership Opportunity</label>
+            </value>
+            <value>
+                <fullName>Neurotoxin + Dermal Filler Opportunity</fullName>
+                <default>false</default>
+                <label>Neurotoxin + Dermal Filler Opportunity</label>
+            </value>
+            <value>
+                <fullName>Neurotoxin Opportunity</fullName>
+                <default>false</default>
+                <label>Neurotoxin Opportunity</label>
+            </value>
+            <value>
+                <fullName>Retail Opportunity</fullName>
+                <default>false</default>
+                <label>Retail Opportunity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

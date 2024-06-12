@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Membership Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Black Diamond</fullName>
+                <default>false</default>
+                <label>Black Diamond</label>
+            </value>
+            <value>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+                <label>Platinum</label>
+            </value>
+            <value>
+                <fullName>Enrich</fullName>
+                <default>false</default>
+                <label>Enrich</label>
+            </value>
+            <value>
+                <fullName>Empower</fullName>
+                <default>false</default>
+                <label>Empower</label>
+            </value>
+            <value>
+                <fullName>Enhance</fullName>
+                <default>false</default>
+                <label>Enhance</label>
+            </value>
+            <value>
+                <fullName>Body Contour</fullName>
+                <default>false</default>
+                <label>Body Contour</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

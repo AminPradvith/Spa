@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <decisions>
+        <name>Opportunity_Membership_Value</name>
+        <label>Opportunity Membership Value</label>
+        <locationX>1370</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Empower</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Growing Young Empower</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Quote_Empower</targetReference>
+            </connector>
+            <label>Empower</label>
+        </rules>
+        <rules>
+            <name>Enrich</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Growing Young Enrich</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Enrich</targetReference>
+            </connector>
+            <label>Enrich</label>
+        </rules>
+        <rules>
+            <name>Enhance</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Growing Young Enhance</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Enhance</targetReference>
+            </connector>
+            <label>Enhance</label>
+        </rules>
+        <rules>
+            <name>Body_Contour</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Body Contour</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Body_Contour</targetReference>
+            </connector>
+            <label>Body Contour</label>
+        </rules>
+        <rules>
+            <name>BDE_20</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>BDE 20</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_BDE_20</targetReference>
+            </connector>
+            <label>BDE 20</label>
+        </rules>
+        <rules>
+            <name>BD_Elite</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>BD Elite</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_BD_Elite</targetReference>
+            </connector>
+            <label>BD Elite</label>
+        </rules>
+        <rules>
+            <name>Platinum</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Platinum</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Platinum</targetReference>
+            </connector>
+            <label>Platinum</label>
+        </rules>
+        <rules>
+            <name>Platinum_20</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Platinum 20</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Platinum_20</targetReference>
+            </connector>
+            <label>Platinum 20</label>
+        </rules>
+        <rules>
+            <name>Non_Member</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Non-Member</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Update_None</targetReference>
+            </connector>
+            <label>Non-Member</label>
+        </rules>
+        <rules>
+            <name>None</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Opp_Membership_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Non-Member</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_None</targetReference>
+            </connector>
+            <label>None</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Quote_has_rel_oppId</name>
+        <label>Does this quote have an Opportunity?</label>
+        <locationX>2162</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>If_has_OpportunityID</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SBQQ__Opportunity2__r.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Opportunity_Membership_Value</targetReference>
+            </connector>
+            <label>If has OpportunityID</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Quote Insert value from Opportunity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Quote Insert value from Opportunity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Copy_1_of_Update_None</name>
+        <label>Copy 1 of Update None</label>
+        <locationX>2162</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Non-Member</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>None</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_BD_Elite</name>
+        <label>Update BD Elite</label>
+        <locationX>1370</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>BD Elite</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_BDE_20</name>
+        <label>Update BDE 20</label>
+        <locationX>1106</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>BDE 20</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Body_Contour</name>
+        <label>Update Body Contour</label>
+        <locationX>842</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>Body Contour</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Enhance</name>
+        <label>Update Enhance</label>
+        <locationX>578</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>Enhance</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Enrich</name>
+        <label>Update Enrich</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>Enrich</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_None</name>
+        <label>Update None</label>
+        <locationX>2426</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>None</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Platinum</name>
+        <label>Update Platinum</label>
+        <locationX>1634</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>Platinum</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Platinum_20</name>
+        <label>Update Platinum 20</label>
+        <locationX>1898</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>Platinum 20</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Quote_Empower</name>
+        <label>Update Quote Empower</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>Member_Non_Member__c</field>
+            <value>
+                <stringValue>Member Discount</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subscription_Type__c</field>
+            <value>
+                <stringValue>Empower</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>2036</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Quote_has_rel_oppId</targetReference>
+        </connector>
+        <object>SBQQ__Quote__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

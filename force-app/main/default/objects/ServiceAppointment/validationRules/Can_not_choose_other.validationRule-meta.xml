@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_not_choose_other</fullName>
+    <active>true</active>
+    <description>If there is anything in the comment field, then someone chose other and that is not allowed</description>
+    <errorConditionFormula>NOT(ISBLANK( Comments ))</errorConditionFormula>
+    <errorMessage>Before you picked the room you picked OTHER. That is not allowed. please go back and uncheck OTHER.</errorMessage>
+</ValidationRule>

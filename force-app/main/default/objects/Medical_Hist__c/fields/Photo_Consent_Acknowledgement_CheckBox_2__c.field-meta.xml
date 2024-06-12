@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Photo_Consent_Acknowledgement_CheckBox_2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>I have read and understand the Photo Consent acknowledgement.</description>
+    <externalId>false</externalId>
+    <label>Photo Consent Acknowledgement CheckBox 2</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

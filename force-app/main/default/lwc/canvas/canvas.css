@@ -1,0 +1,97 @@
+.container {
+    display: grid;
+    grid-template-columns: auto 200px; /* Adjust the width of the toolbar column as needed */
+    gap: 10px; /* Adjust the gap between the image and toolbar */
+}
+
+.canvas-container {
+    position: relative;
+}
+
+.image-canvas, .markup-canvas {
+    display: block; /* Ensure canvas takes up the full space */
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: column; /* Align toolbar items vertically */
+    align-items: flex-start; /* Align toolbar items to the start */
+}
+
+/* Adjust styles for toolbar buttons */
+.pen-button,
+.color-picker-button,
+.eraser-button,
+.text-button,
+.line-button,
+.zoom-in-button,
+.zoom-out-button,
+.date-button,
+.number-stamp-button,
+.save-button,
+.color-picker,
+.number-select {
+    margin-bottom: 5px; /* Adjust the spacing between buttons */
+}
+
+/* Active state for buttons */
+.pen-button.active,
+.eraser-button.active,
+.text-button.active,
+.line-button.active,
+.zoom-in-button.active,
+.zoom-out-button.active,
+.date-button.active,
+.number-stamp-button.active {
+    background-color: #ddd;
+}
+
+.color-picker {
+    width: 100%; /* Make color picker full width */
+}
+
+.canvas-container {
+    position: relative;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    width: 500px; /* Adjust the width of the container */
+    height: 500px; /* Adjust the height of the container */
+}
+
+.image-canvas, .markup-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left; /* Set the transform origin */
+    transition: transform 0.3s ease; /* Add smooth transition for zoom */
+}
+
+.color-picker-button {
+    position: relative;
+}
+
+.color-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Adjust the positioning as needed */
+    transform: translateY(-50%);
+}
+
+.color-picker {
+    adding-left: 30px; /* Add padding to ensure the color picker is not hidden by the icon */
+    width: 20px; /* Set the width of the color picker */
+    height: 20px; /* Set the height of the color picker */
+    border: none; /* Remove default border */
+    border-radius: 50%; /* Make it circular */
+}
+.stamp-container {
+  display: inline-block;
+}
+
+.stamp-button {
+  vertical-align: middle;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

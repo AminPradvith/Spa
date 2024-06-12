@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area__c</fullName>
+    <externalId>false</externalId>
+    <label>Area</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arms</fullName>
+                <default>false</default>
+                <label>Arms</label>
+            </value>
+            <value>
+                <fullName>Flanks</fullName>
+                <default>false</default>
+                <label>Flanks</label>
+            </value>
+            <value>
+                <fullName>Upper Abdomen</fullName>
+                <default>false</default>
+                <label>Upper Abdomen</label>
+            </value>
+            <value>
+                <fullName>Lower Abdomen</fullName>
+                <default>false</default>
+                <label>Lower Abdomen</label>
+            </value>
+            <value>
+                <fullName>Inner Thigh</fullName>
+                <default>false</default>
+                <label>Inner Thigh</label>
+            </value>
+            <value>
+                <fullName>Outer Thigh</fullName>
+                <default>false</default>
+                <label>Outer Thigh</label>
+            </value>
+            <value>
+                <fullName>Banana Roll</fullName>
+                <default>false</default>
+                <label>Banana Roll</label>
+            </value>
+            <value>
+                <fullName>Knees</fullName>
+                <default>false</default>
+                <label>Knees</label>
+            </value>
+            <value>
+                <fullName>middle abdomen</fullName>
+                <default>false</default>
+                <label>middle abdomen</label>
+            </value>
+            <value>
+                <fullName>upper flank</fullName>
+                <default>false</default>
+                <label>upper flank</label>
+            </value>
+            <value>
+                <fullName>lower flank</fullName>
+                <default>false</default>
+                <label>lower flank</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

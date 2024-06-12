@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <externalId>false</externalId>
+    <label>Products</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Age Rewind Eye &amp; Lip Infused Serum-912</fullName>
+                <default>false</default>
+                <label>Age Rewind Eye &amp; Lip Infused Serum-912</label>
+            </value>
+            <value>
+                <fullName>Couture Age Defying Scrub</fullName>
+                <default>false</default>
+                <label>Couture Age Defying Scrub</label>
+            </value>
+            <value>
+                <fullName>Couture Lipid Repair Cream</fullName>
+                <default>false</default>
+                <label>Couture Lipid Repair Cream</label>
+            </value>
+            <value>
+                <fullName>Couture Vitamin C Serum</fullName>
+                <default>false</default>
+                <label>Couture Vitamin C Serum</label>
+            </value>
+            <value>
+                <fullName>Hyaluronic Serum</fullName>
+                <default>false</default>
+                <label>Hyaluronic Serum</label>
+            </value>
+            <value>
+                <fullName>Hydroquinone-p-15</fullName>
+                <default>false</default>
+                <label>Hydroquinone-p-15</label>
+            </value>
+            <value>
+                <fullName>Rebrightalyze Kit-150</fullName>
+                <default>false</default>
+                <label>Rebrightalyze Kit-150</label>
+            </value>
+            <value>
+                <fullName>Shipping- Flat Rate</fullName>
+                <default>false</default>
+                <label>Shipping- Flat Rate</label>
+            </value>
+            <value>
+                <fullName>Ultimatte SunShade-859</fullName>
+                <default>false</default>
+                <label>Ultimatte SunShade-859</label>
+            </value>
+            <value>
+                <fullName>Couture Antioxidant Toning Mist</fullName>
+                <default>false</default>
+                <label>Couture Antioxidant Toning Mist</label>
+            </value>
+            <value>
+                <fullName>Couture Finishing Powder Mineral Sunscreen</fullName>
+                <default>false</default>
+                <label>Couture Finishing Powder Mineral Sunscreen</label>
+            </value>
+            <value>
+                <fullName>Couture Foaming Cleanser</fullName>
+                <default>false</default>
+                <label>Couture Foaming Cleanser</label>
+            </value>
+            <value>
+                <fullName>Couture Gentle Cleanser</fullName>
+                <default>false</default>
+                <label>Couture Gentle Cleanser</label>
+            </value>
+            <value>
+                <fullName>Couture Luxe Moisturizer</fullName>
+                <default>false</default>
+                <label>Couture Luxe Moisturizer</label>
+            </value>
+            <value>
+                <fullName>Elastiderm Eye Cream</fullName>
+                <default>false</default>
+                <label>Elastiderm Eye Cream</label>
+            </value>
+            <value>
+                <fullName>Elastiderm Eye Serum</fullName>
+                <default>false</default>
+                <label>Elastiderm Eye Serum</label>
+            </value>
+            <value>
+                <fullName>Elastiderm Facial Serum</fullName>
+                <default>false</default>
+                <label>Elastiderm Facial Serum</label>
+            </value>
+            <value>
+                <fullName>Elastiderm Neck and Décolleté Serum</fullName>
+                <default>false</default>
+                <label>Elastiderm Neck and Décolleté Serum</label>
+            </value>
+            <value>
+                <fullName>Hydro-Drops</fullName>
+                <default>false</default>
+                <label>Hydro-Drops</label>
+            </value>
+            <value>
+                <fullName>Nu-Cil</fullName>
+                <default>false</default>
+                <label>Nu-Cil</label>
+            </value>
+            <value>
+                <fullName>Nu-Cil Brow Serum</fullName>
+                <default>false</default>
+                <label>Nu-Cil Brow Serum</label>
+            </value>
+            <value>
+                <fullName>Obagi Daily Gentle Scrub</fullName>
+                <default>false</default>
+                <label>Obagi Daily Gentle Scrub</label>
+            </value>
+            <value>
+                <fullName>Obagi Peptide Complex</fullName>
+                <default>false</default>
+                <label>Obagi Peptide Complex</label>
+            </value>
+            <value>
+                <fullName>Obagi Rebalance</fullName>
+                <default>false</default>
+                <label>Obagi Rebalance</label>
+            </value>
+            <value>
+                <fullName>Pore Therapy</fullName>
+                <default>false</default>
+                <label>Pore Therapy</label>
+            </value>
+            <value>
+                <fullName>Tretinoin.025% Cream</fullName>
+                <default>false</default>
+                <label>Tretinoin.025% Cream</label>
+            </value>
+            <value>
+                <fullName>Tretinoin.05% Cream</fullName>
+                <default>false</default>
+                <label>Tretinoin.05% Cream</label>
+            </value>
+            <value>
+                <fullName>Tretinoin.05% Gel</fullName>
+                <default>false</default>
+                <label>Tretinoin.05% Gel</label>
+            </value>
+            <value>
+                <fullName>Tretinoin.1% Cream</fullName>
+                <default>false</default>
+                <label>Tretinoin.1% Cream</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

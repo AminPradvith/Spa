@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cosigner_Agreement_2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Financial Cosigner: I promise to pay any financial obligation that the member does not pay for any reason and acknowledge that the banking information above is my account. I also agree to defend and indemnify CMS to the fullest extent permitted by the law for any claim brought against CMS by the member.</description>
+    <externalId>false</externalId>
+    <label>Cosigner Agreement 2</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

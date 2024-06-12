@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Access_to_Which_Locations__c</fullName>
+    <externalId>false</externalId>
+    <label>Access to Which Locations</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Locations</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

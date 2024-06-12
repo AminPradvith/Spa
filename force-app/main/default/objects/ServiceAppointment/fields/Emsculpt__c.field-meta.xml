@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emsculpt__c</fullName>
+    <externalId>false</externalId>
+    <label>Emsculpt Treatment Areas</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abdomen</fullName>
+                <default>false</default>
+                <label>Abdomen</label>
+            </value>
+            <value>
+                <fullName>Glutes</fullName>
+                <default>false</default>
+                <label>Glutes</label>
+            </value>
+            <value>
+                <fullName>Calves</fullName>
+                <default>false</default>
+                <label>Calves</label>
+            </value>
+            <value>
+                <fullName>Arms</fullName>
+                <default>false</default>
+                <label>Arms</label>
+            </value>
+            <value>
+                <fullName>Thighs</fullName>
+                <default>false</default>
+                <label>Thighs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

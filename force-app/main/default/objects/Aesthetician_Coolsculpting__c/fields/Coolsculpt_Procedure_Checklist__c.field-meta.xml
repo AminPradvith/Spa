@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coolsculpt_Procedure_Checklist__c</fullName>
+    <externalId>false</externalId>
+    <label>Coolsculpt Procedure Checklist</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Patient asked if they need to use the restroom</fullName>
+                <default>false</default>
+                <label>Patient asked if they need to use the restroom</label>
+            </value>
+            <value>
+                <fullName>Patients abdomen cleaned with alcohol</fullName>
+                <default>false</default>
+                <label>Patients abdomen cleaned with alcohol</label>
+            </value>
+            <value>
+                <fullName>Marking pen used to outline the template</fullName>
+                <default>false</default>
+                <label>Marking pen used to outline the template</label>
+            </value>
+            <value>
+                <fullName>Patient is seated, gel pad is applied (abdomen), Patient is standing (cool curve plus, cool smooth) and gel pad applied</fullName>
+                <default>false</default>
+                <label>Patient is seated, gel pad is applied (abdomen), Patient is standing (cool curve plus, cool smooth) and gel pad applied</label>
+            </value>
+            <value>
+                <fullName>Liner planed on the applicator</fullName>
+                <default>false</default>
+                <label>Liner planed on the applicator</label>
+            </value>
+            <value>
+                <fullName>applicator is positioned in marked areas and is checked for adequate tissue draw up to or beyond metal markers</fullName>
+                <default>false</default>
+                <label>applicator is positioned in marked areas and is checked for adequate tissue draw up to or beyond metal markers</label>
+            </value>
+            <value>
+                <fullName>Pillow is positioned to support applicator</fullName>
+                <default>false</default>
+                <label>Pillow is positioned to support applicator</label>
+            </value>
+            <value>
+                <fullName>Call button and pager activate</fullName>
+                <default>false</default>
+                <label>Call button and pager activate</label>
+            </value>
+            <value>
+                <fullName>Water and comfort materials (cell phone, book) brought to easily accessibly</fullName>
+                <default>false</default>
+                <label>Water and comfort materials (cell phone, book) brought to easily accessibly</label>
+            </value>
+            <value>
+                <fullName>location</fullName>
+                <default>false</default>
+                <label>location</label>
+            </value>
+            <value>
+                <fullName>Patient reminded not to reach or move to dislodge the applicator</fullName>
+                <default>false</default>
+                <label>Patient reminded not to reach or move to dislodge the applicator</label>
+            </value>
+            <value>
+                <fullName>Setting 60-75-60</fullName>
+                <default>false</default>
+                <label>Setting 60-75-60</label>
+            </value>
+            <value>
+                <fullName>Patient notified that in last 5 min, a cool sensation may be apparent that is reflective of a massage phase</fullName>
+                <default>false</default>
+                <label>Patient notified that in last 5 min, a cool sensation may be apparent that is reflective of a massage phase</label>
+            </value>
+            <value>
+                <fullName>Pre treatment photos taken</fullName>
+                <default>false</default>
+                <label>Pre treatment photos taken</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

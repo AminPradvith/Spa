@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Arrival_Time_String_c__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(HOUR(Arrival_Time__c)) &amp; &quot;:&quot; &amp;
+TEXT(MINUTE(Arrival_Time__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Arrival_Time_String__c</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

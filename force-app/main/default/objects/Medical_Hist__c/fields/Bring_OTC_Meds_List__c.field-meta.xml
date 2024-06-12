@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bring_OTC_Meds_List__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Please bring a COMPLETE list of all over-the-counter medications (supplements and vitamins).</description>
+    <externalId>false</externalId>
+    <label>Bring OTC Meds List</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
